@@ -3,7 +3,7 @@
 set -eux
 
 # Build and install the editor
-./build_libgodot_nanofoo.sh --update-api
+./build_libgodot_nanofoo.sh --editor-rebuild
 ./install_godot_macos.sh
 
 # Create the export zip
